@@ -52,7 +52,7 @@ public class Diccionario {
             }
 		}
 		catch(IOException io){
-			System.out.println("Error, ocurrio un problema en lectura del documento u operacion");
+			System.out.println("Error, ha ocurrido un problema en lectura del documento u operacion");
 	
 		}
 		
@@ -93,7 +93,7 @@ public class Diccionario {
 			System.out.println("Traduccion: "+texto);
 	}
 		catch(IOException io){
-			System.out.println("Error, ocurrio un problema en lectura del documento u operacion");
+			System.out.println("Error, ha ocurrido un problema en lectura del documento u operacion");
 		}
     }
     

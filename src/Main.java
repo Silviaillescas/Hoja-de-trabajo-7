@@ -12,7 +12,10 @@ import java.io.FileNotFoundException;
  * @author silvi
  */
 public class main {
-    public static void main(String[] args) throws FileNotFoundException{
-        
-    }
+
+    public static void main(String[] args) {
+     
+		Diccionario dic = new Diccionario();
+                dic.leer();
+	}
 }
