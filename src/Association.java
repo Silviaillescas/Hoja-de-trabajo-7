@@ -17,7 +17,6 @@ public class Association<K,V>
    
     protected K theKey; 
    
-   
     protected V theValue; 
 
   
@@ -36,7 +35,6 @@ public class Association<K,V>
 
 
     /**
-     * @post 
      * @return 
      * @see
      */
@@ -63,7 +61,8 @@ public class Association<K,V>
         }
         return Objects.equals(this.theValue, other.theValue);
     }
-    
+
+   
     /**
      * @post 
      * @return 

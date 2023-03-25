@@ -20,6 +20,10 @@ public class BinaryTree<E>
     private Association<String,String> word;
     
 
+     public BinaryTree(){
+    
+    }
+     
     public BinaryTree(E value)
     {
         
@@ -32,18 +36,13 @@ public class BinaryTree<E>
  
     public BinaryTree(BinaryTree right, BinaryTree left,String wordIng, String wordEsp)
     {
-       super();   //
+       super();   
        this.right=right;
        this.left=left;
        word = new Association<>(wordIng,wordEsp);
        
     }
-
-    private BinaryTree() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-   
+  
     public BinaryTree<E> getLeft()
     {
         return left;
