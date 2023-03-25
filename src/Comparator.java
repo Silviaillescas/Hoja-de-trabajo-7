@@ -7,6 +7,6 @@
  *
  * @author silvi
  */
-public class Binaryresearchtree {
+public class Comparator {
     
 }

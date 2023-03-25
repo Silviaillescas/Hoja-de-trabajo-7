@@ -7,6 +7,6 @@
  *
  * @author silvi
  */
-public class Visibility {
+public class BinaryTree {
     
 }
