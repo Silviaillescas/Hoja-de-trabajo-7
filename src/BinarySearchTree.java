@@ -68,8 +68,6 @@ public class BinarySearchTree<E>{
 		translation = newTraduccion;
 	}
 	
-        
-	//Get words quantity method
 	public int getWordsQuantity(){
 		return counter;
 	}	

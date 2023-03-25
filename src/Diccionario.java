@@ -97,6 +97,5 @@ public class Diccionario {
 		}
     }
     
-    public void creararbol(){}
 }
 
