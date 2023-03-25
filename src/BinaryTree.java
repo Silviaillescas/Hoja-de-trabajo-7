@@ -168,20 +168,16 @@ public class BinaryTree<E>
         return this == parent().getLeft();
     }
 
-
     public boolean isRightChild()
     {
         if (parent() == null) return false;
         return this == parent().getRight();
     }
-
    
     public E getValue()
     {
         return val;
     }
-
-   
    
     public void setValue(E value)
     {
@@ -203,8 +199,6 @@ public class BinaryTree<E>
         return s;
     }
     
-
-
     private String getHand(){
         if (isRightChild()) return "R";
         if (isLeftChild()) return "L";
